@@ -1,9 +1,14 @@
 import React, {Component} from "react";
+import NewComponent from "./NewComponent";
 
 class App extends Component {
     render() {
         return (
-            <h1>App component</h1>
+            <div>
+                <h1>App component</h1>
+                <NewComponent />
+            </div>
+
         )
     }
 }
